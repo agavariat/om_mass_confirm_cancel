@@ -3,7 +3,7 @@
 
 {
     'name': 'Sale,Purchase Mass Confirm and Cancel',
-    'version': '12.0.1.0.0',
+    'version': '14.0.1.0.0',
     'category': 'Generic Modules/Others',
     'description': 'Allow To Cancel and Confirm the Sales and Purchase From the Tree View',
     'summary': 'Allow To Cancel and Confirm the Sales and Purchase From the Tree View',
@@ -13,11 +13,12 @@
     'support': 'odoomates@gmail.com',
     'license': 'LGPL-3',
     'depends': [
-        'sale', 'purchase'
+        'sale',
+        'purchase'
     ],
     'data': [
-        'wizards/sale_view.xml',
-        'wizards/purchase_view.xml',
+        'views/sale_view.xml',
+        'views/purchase_view.xml',
     ],
     'images': ['static/description/banner.png'],
     'demo': [],
